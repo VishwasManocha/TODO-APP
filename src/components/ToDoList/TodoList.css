@@ -1,0 +1,65 @@
+.TodoList {
+    width: 30rem;
+    width: 65%;
+    margin: auto;
+    scroll-behavior: auto;
+    padding: 10px;
+  }
+  .TodoList .Card:hover button{
+      display: inline-block;
+  }
+  .TodoList h2{
+      transform: translate(188px, -390px);
+  }
+  .TodoList ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    transform: translate(188px, -400px);
+  }
+  .TodoList li {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 20vh;
+  }
+  .TodoList svg{
+      height: 3vh;
+      color: white;
+  }
+  .TodoList button{
+      display: none;
+      margin-top: 60px;
+      height: 5vh;
+      padding: 2px;
+      width: 10%;
+      cursor: pointer;
+      background-color: red;
+      text-align: center;
+  }
+  .TodoList button:hover {
+      background-color: green;
+  }
+  .TodoList input{
+      height: 3vh;
+      margin-left: 10px;
+  }
+  .TodoList textarea{
+      width: 35%;
+      resize: none;
+  }
+  .TodoList .Card{
+      display: flex;
+      border: 2px solid #eee;
+      justify-content: space-evenly;
+      padding: 20px;
+      height: 20vh;
+      transform: translate(188px, -400px);
+      margin:10px auto;
+      box-shadow: 0 10px 10px #ccc;
+      border-radius: 5px;
+  }  
